@@ -1,0 +1,234 @@
+{
+  "summary": {
+    "oracle": {
+      "median": 5887.0,
+      "best": 5887,
+      "worst": 5887,
+      "survived": 8,
+      "games": 8,
+      "reached_max_speed": 8
+    },
+    "threshold": {
+      "median": 5887.0,
+      "best": 5887,
+      "worst": 5887,
+      "survived": 8,
+      "games": 8,
+      "reached_max_speed": 8
+    },
+    "laya": {
+      "median": 5887.0,
+      "best": 5887,
+      "worst": 508,
+      "survived": 7,
+      "games": 8,
+      "reached_max_speed": 7
+    },
+    "latency_ms": {
+      "p50": 21.628374999636435,
+      "p90": 22.663124999780848,
+      "max": 164.29579200030275
+    }
+  },
+  "runs": {
+    "oracle": [
+      {
+        "seed": 50000,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50001,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50002,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50003,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50004,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50005,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50006,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50007,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      }
+    ],
+    "threshold": [
+      {
+        "seed": 50000,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50001,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50002,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50003,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50004,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50005,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50006,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50007,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      }
+    ],
+    "laya": [
+      {
+        "seed": 50000,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50001,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50002,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50003,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50004,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50005,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50006,
+        "score": 5887,
+        "frames": 20000,
+        "speed": 13.0,
+        "crashed": false,
+        "reached_max_speed": true
+      },
+      {
+        "seed": 50007,
+        "score": 508,
+        "frames": 2757,
+        "speed": 8.76,
+        "crashed": true,
+        "reached_max_speed": false
+      }
+    ]
+  },
+  "poll": 2
+}

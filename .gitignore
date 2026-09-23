@@ -1,0 +1,33 @@
+# Virtualenvs
+.venv/
+spike/.venv/
+
+# Generated training data (1.3M rows, ~480MB). Reproduce with:
+#   PYTHONPATH=. .venv/bin/python scripts/gen_dataset.py
+data/
+
+# Trained weights (57MB). Reproduce with scripts/train.py, ~70 min on an M1.
+checkpoints/*.pt
+
+# Raw browser recordings. The published clips live in docs/.
+results/video/
+results/video_dist/
+results/video_clips/
+results/video_final/
+results/*.webm
+results/*.mp4
+
+# Vendored game source. Not ours to redistribute; clone it instead:
+#   git clone --depth 1 https://github.com/wayou/t-rex-runner third_party/t-rex-runner
+third_party/
+
+# Build and tooling artefacts
+spike/rust-sim/target/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# ...except the README assets.
+!docs/*.gif
+!docs/*.mp4

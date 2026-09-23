@@ -1,0 +1,25 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 1755.09it/s]
+model: checkpoints/dino_head_numeric.pt enc=numeric T=1.568 device=mps
+serving t-rex-runner at http://127.0.0.1:8777/index.html
+127.0.0.1 - - [23/Sep/2026 11:48:22] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:48:22] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:48:22] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:48:22] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:48:22] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:48:22] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 1/12: score=736 crashed=True speed=12.44 decisions=902
+  game 2/12: score=431 crashed=True speed=10.29 decisions=644
+  game 3/12: score=428 crashed=True speed=10.26 decisions=655
+  game 4/12: score=1765 crashed=True speed=13.00 decisions=1672
+  game 5/12: score=405 crashed=True speed=10.08 decisions=631
+  game 6/12: score=3208 crashed=False speed=13.00 decisions=2619
+  game 7/12: score=893 crashed=True speed=13.00 decisions=977
+  game 8/12: score=1057 crashed=True speed=13.00 decisions=1131
+  game 9/12: score=240 crashed=True speed=8.68 decisions=419
+  game 10/12: score=887 crashed=True speed=13.00 decisions=1004
+  game 11/12: score=2190 crashed=True speed=13.00 decisions=1839
+  game 12/12: score=1312 crashed=True speed=13.00 decisions=1255
+
+real Chrome dino: median=890.0 best=3208 survived=1/12
+decision latency p50=29.7ms p90=37.4ms
+wrote results/chrome_dist.json; video in results/video_dist

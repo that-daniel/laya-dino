@@ -1,0 +1,113 @@
+{
+  "frame_budget_ms": 16.666666666666668,
+  "rows": [
+    {
+      "ckpt": "laya (ModernBERT-large 421M)",
+      "device": "cpu",
+      "state": "tiny(~30tok)",
+      "tokens": -1,
+      "p50": 119.39554199989288,
+      "p90": 120.49308399991787,
+      "min": 118.56687499994223
+    },
+    {
+      "ckpt": "laya (ModernBERT-large 421M)",
+      "device": "cpu",
+      "state": "med(~150tok)",
+      "tokens": -1,
+      "p50": 214.90114599998833,
+      "p90": 216.2223749999157,
+      "min": 213.0029160000504
+    },
+    {
+      "ckpt": "laya (ModernBERT-large 421M)",
+      "device": "cpu",
+      "state": "large(~500tok)",
+      "tokens": -1,
+      "p50": 360.6916460000775,
+      "p90": 371.6289159999633,
+      "min": 358.6092089999511
+    },
+    {
+      "ckpt": "laya (ModernBERT-large 421M)",
+      "device": "mps",
+      "state": "tiny(~30tok)",
+      "tokens": -1,
+      "p50": 43.59850000003007,
+      "p90": 46.44504200018673,
+      "min": 42.73224999997183
+    },
+    {
+      "ckpt": "laya (ModernBERT-large 421M)",
+      "device": "mps",
+      "state": "med(~150tok)",
+      "tokens": -1,
+      "p50": 90.56539599987445,
+      "p90": 94.05566600003112,
+      "min": 85.51375000001826
+    },
+    {
+      "ckpt": "laya (ModernBERT-large 421M)",
+      "device": "mps",
+      "state": "large(~500tok)",
+      "tokens": -1,
+      "p50": 157.81635399991956,
+      "p90": 159.10695899992788,
+      "min": 156.58512499999233
+    },
+    {
+      "ckpt": "laya-multilingual (mmBERT-base 322M)",
+      "device": "cpu",
+      "state": "tiny(~30tok)",
+      "tokens": -1,
+      "p50": 48.895145499955106,
+      "p90": 71.01633299998866,
+      "min": 47.04220799999348
+    },
+    {
+      "ckpt": "laya-multilingual (mmBERT-base 322M)",
+      "device": "cpu",
+      "state": "med(~150tok)",
+      "tokens": -1,
+      "p50": 104.75539599997319,
+      "p90": 107.40012500014018,
+      "min": 103.84820900003433
+    },
+    {
+      "ckpt": "laya-multilingual (mmBERT-base 322M)",
+      "device": "cpu",
+      "state": "large(~500tok)",
+      "tokens": -1,
+      "p50": 332.22887500005527,
+      "p90": 334.5997080000416,
+      "min": 330.99191699989206
+    },
+    {
+      "ckpt": "laya-multilingual (mmBERT-base 322M)",
+      "device": "mps",
+      "state": "tiny(~30tok)",
+      "tokens": -1,
+      "p50": 29.63562549996368,
+      "p90": 32.425207999949635,
+      "min": 25.0469999998586
+    },
+    {
+      "ckpt": "laya-multilingual (mmBERT-base 322M)",
+      "device": "mps",
+      "state": "med(~150tok)",
+      "tokens": -1,
+      "p50": 50.33560449999186,
+      "p90": 51.41729199999645,
+      "min": 49.10012499999539
+    },
+    {
+      "ckpt": "laya-multilingual (mmBERT-base 322M)",
+      "device": "mps",
+      "state": "large(~500tok)",
+      "tokens": -1,
+      "p50": 147.64304149991858,
+      "p90": 154.40183300006538,
+      "min": 146.42649999996138
+    }
+  ]
+}

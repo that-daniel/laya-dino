@@ -1,0 +1,6 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 1309.57it/s]
+loaded T=1.874
+thr=0.97   median=   1365 survived=3/8 scores=[562, 800, 910, 1356, 1374, 1987, 1987, 1987]
+thr=0.99   median=   1987 survived=5/8 scores=[1254, 1374, 1374, 1987, 1987, 1987, 1987, 1987]
+thr=0.995  median=   1987 survived=7/8 scores=[1254, 1987, 1987, 1987, 1987, 1987, 1987, 1987]
+thr=0.999  median=     55 survived=3/8 scores=[12, 23, 49, 55, 55, 1987, 1987, 1987]

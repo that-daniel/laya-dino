@@ -1,0 +1,4 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 1142.36it/s]
+seeds 50000: laya 4/8 med=1674 | baseline 6/8 med=1987
+seeds 60000: laya 8/8 med=1987 | baseline 3/8 med=1436
+seeds 70000: laya 6/8 med=1987 | baseline 2/8 med=1762

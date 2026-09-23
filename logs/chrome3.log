@@ -1,0 +1,34 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 1384.35it/s]
+model: checkpoints/dino_head_numeric.pt enc=numeric T=1.568 device=mps
+serving t-rex-runner at http://127.0.0.1:8777/index.html
+127.0.0.1 - - [23/Sep/2026 10:28:50] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 10:28:50] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 10:28:50] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 10:28:50] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 10:28:50] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 10:28:50] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 1/5: score=431 crashed=True speed=10.29 decisions=633
+  game 2/5: score=2164 crashed=True speed=13.00 decisions=2311
+  game 3/5: score=1808 crashed=True speed=13.00 decisions=2107
+  game 4/5: score=2903 crashed=False speed=13.00 decisions=2672
+Traceback (most recent call last):
+  File "./scripts/play_chrome.py", line 254, in <module>
+    main()
+  File "./scripts/play_chrome.py", line 175, in main
+    page.wait_for_function(
+  File "./.venv/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 12809, in wait_for_function
+    self._sync(
+  File "./.venv/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/playwright/_impl/_page.py", line 1153, in wait_for_function
+    return await self._main_frame.wait_for_function(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 941, in wait_for_function
+    await self._channel.send("waitForFunction", self._timeout, params)
+  File "./.venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 20000ms exceeded.

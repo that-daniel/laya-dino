@@ -1,0 +1,12 @@
+[package]
+name = "laya-dino"
+version = "0.1.0"
+edition = "2021"
+description = "Chrome dino, played by a one-decision (System-1) model"
+license = "Apache-2.0"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true

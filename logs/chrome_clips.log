@@ -1,0 +1,63 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 1615.43it/s]
+model: checkpoints/dino_head_numeric.pt enc=numeric T=1.568 device=mps
+serving t-rex-runner at http://127.0.0.1:8777/index.html
+127.0.0.1 - - [23/Sep/2026 12:07:39] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:07:39] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:07:39] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:07:39] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:07:39] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:07:40] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 1/8: score=2086 crashed=True speed=13.00 decisions=2344
+127.0.0.1 - - [23/Sep/2026 12:09:44] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:09:44] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:09:44] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:09:44] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:09:44] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:09:44] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 2/8: score=896 crashed=True speed=13.00 decisions=1285
+127.0.0.1 - - [23/Sep/2026 12:10:46] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:10:46] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:10:46] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:10:46] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:10:46] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:10:47] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 3/8: score=1128 crashed=True speed=13.00 decisions=1670
+127.0.0.1 - - [23/Sep/2026 12:12:01] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:01] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:01] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:01] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:01] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:01] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 4/8: score=81 crashed=True speed=7.06 decisions=269
+127.0.0.1 - - [23/Sep/2026 12:12:10] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:10] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:10] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:10] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:10] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:11] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 5/8: score=251 crashed=True speed=8.78 decisions=578
+127.0.0.1 - - [23/Sep/2026 12:12:35] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:35] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:35] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:35] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:35] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:12:35] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 6/8: score=464 crashed=True speed=10.54 decisions=927
+127.0.0.1 - - [23/Sep/2026 12:13:13] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:13] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:13] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:13] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:13] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:13] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 7/8: score=241 crashed=True speed=8.69 decisions=545
+127.0.0.1 - - [23/Sep/2026 12:13:36] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:36] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:36] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:36] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:36] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 12:13:36] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 8/8: score=2178 crashed=True speed=13.00 decisions=2568
+
+real Chrome dino: median=680.0 best=2178 survived=0/8
+decision latency p50=23.0ms p90=23.7ms
+wrote results/chrome_clips.json; video in results/video_clips

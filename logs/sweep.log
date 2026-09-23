@@ -1,0 +1,7 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 1433.07it/s]
+loaded numeric T=1.795 mps
+threshold=0.9    median=    126 survived=0/6 scores=[13, 13, 39, 213, 568, 902]
+threshold=0.97   median=    861 survived=1/6 scores=[28, 39, 800, 922, 1173, 1987]
+threshold=0.99   median=   1987 survived=4/6 scores=[39, 953, 1987, 1987, 1987, 1987]
+threshold=0.995  median=   1987 survived=4/6 scores=[39, 953, 1987, 1987, 1987, 1987]
+threshold=0.999  median=    144 survived=0/6 scores=[55, 102, 141, 148, 283, 359]

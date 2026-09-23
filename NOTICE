@@ -1,0 +1,15 @@
+laya-dino
+Copyright 2026 that-daniel
+
+This product includes software developed by third parties:
+
+- laya (https://github.com/NandhaKishorM/laya), Convai Innovations,
+  licensed under the Apache License 2.0. Used as a dependency; no source
+  is vendored here.
+
+- The Chromium t-rex runner game source, used for physics constants and as
+  the browser target, is licensed under BSD 3-Clause. It is NOT vendored in
+  this repository; `third_party/` is gitignored and must be cloned:
+      git clone --depth 1 https://github.com/wayou/t-rex-runner third_party/t-rex-runner
+  No Chrome sprite assets are redistributed here. The simulation renderer in
+  scripts/render.py draws placeholder shapes.

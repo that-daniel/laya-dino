@@ -1,0 +1,20 @@
+{
+  "encoding": "numeric",
+  "checkpoint": "convaiinnovations/laya-multilingual",
+  "baseline": {
+    "acc": 0.46775,
+    "ece": 0.19060833740234373,
+    "recall": 0.4631425800193986,
+    "precision": 0.483055134041477
+  },
+  "final": {
+    "acc": 0.96425,
+    "ece": 0.013305567994713819,
+    "recall": 0.9631425800193987,
+    "precision": 0.9673648319532392
+  },
+  "ece_before_temperature": 0.021655862718820522,
+  "temperature": 1.567535161972046,
+  "n_train": 100000,
+  "n_test": 4000
+}

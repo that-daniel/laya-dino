@@ -1,0 +1,16 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 1680.14it/s]
+model: checkpoints/dino_head_numeric.pt enc=numeric T=1.568 device=mps
+serving t-rex-runner at http://127.0.0.1:8777/index.html
+127.0.0.1 - - [23/Sep/2026 11:39:06] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:39:06] "GET /index.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:39:06] "GET /index.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:39:06] "GET /assets/default_100_percent/100-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:39:06] "GET /assets/default_200_percent/200-offline-sprite.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2026 11:39:07] "GET /assets/default_100_percent/100-error-offline.png HTTP/1.1" 200 -
+  game 1/3: score=1079 crashed=True speed=13.00 decisions=1157
+  game 2/3: score=300 crashed=True speed=9.21 decisions=487
+  game 3/3: score=1068 crashed=True speed=13.00 decisions=1166
+
+real Chrome dino: median=1068 best=1079 survived=0/3
+decision latency p50=29.3ms p90=37.1ms
+wrote results/chrome_final.json; video in results/video_final
