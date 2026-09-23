@@ -10,8 +10,14 @@ non-autoregressive "System 1" decision engine.
 encoder answering one yes/no question ~30 times a second. Full clip:
 [docs/laya-dino-best.mp4](docs/laya-dino-best.mp4).*
 
-Writeup: [I Taught a One-Decision Model to Play Chrome Dino](https://bookofdaniel.in/posts/2026-09-23-i-taught-a-one-decision-model-to-play-chrome-dino/)
-· Background: [Jev, the AI that refuses to talk to you](https://bookofdaniel.in/posts/2026-09-22-jev-the-ai-that-refuses-to-talk-to-you/)
+**Writeup:** [I Taught a One-Decision Model to Play Chrome Dino, and It Kept Telling Me I Was Wrong](https://bookofdaniel.in/posts/2026-09-23-i-taught-a-one-decision-model-to-play-chrome-dino/).
+The four failures on the way to that clip, and what they say about the
+one-decision pitch.
+
+**Background:** [Jev: The AI That Refuses to Talk to You](https://bookofdaniel.in/posts/2026-09-22-jev-the-ai-that-refuses-to-talk-to-you/).
+On TypeSafe's launch, its benchmark, and why Laya showing up with open weights
+made the claims checkable. This repo is that post's closing instruction ("go
+run it on your own data") actually carried out.
 
 ---
 
